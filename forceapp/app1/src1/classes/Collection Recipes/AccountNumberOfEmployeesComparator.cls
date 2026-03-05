@@ -4,6 +4,8 @@
  */
 
 public with sharing class AccountNumberOfEmployeesComparator implements Comparator<Account> {
+
+
     public Integer compare(Account a1, Account a2) {
         Integer compareResult;
         // Handle null objects before null field values
